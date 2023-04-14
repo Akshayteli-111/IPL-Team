@@ -4,7 +4,7 @@ import './Schedule.css'
 
 const Schedule = () => {
   return (
-    <div>
+    <div className="tmeImg">
        <img className='timetable' src={match} alt='match-schedule'/>
     </div>
   )
