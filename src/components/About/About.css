@@ -1,12 +1,27 @@
-.brand-logo {
-    margin-left: 455px;
+.abt_info{
+    text-align: center;
 }
 .heading {
-    margin-left: 600px;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     font-weight: bold;
 }
 .content{
     text-align: center;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    .brand-logo {
+        
+        width: 100%;
+        margin: 0px !important;
+    }
+    .abt_info {
+        text-align: center;
+        padding: 20px;
+    }
+    .heading {
+        margin: 0px !important;
+        text-align: center;
+    }
 }
