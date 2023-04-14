@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div>
+    <div className="abt_info">
         <img className="brand-logo" src= {IPL} alt=""/>
        <h1 className="heading">Indian Premier League</h1>
        <p className="content">
